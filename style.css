@@ -219,8 +219,8 @@ p{
     }
 
     #myWorkSamples {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     #clinkTxt {
@@ -255,6 +255,10 @@ p{
         font-size: 23px;
     }
 
+    #myWorkSamples {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
     
     #infoAboutMe h1 {
         font-size: 28px;
@@ -265,7 +269,7 @@ p{
     }
 
     #cRight {
-        font-size: 7px;
+        font-size: 5px;
     }
 
     #iconCredit{
