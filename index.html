@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stephanie Muise</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="girl.png" />
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="functions.js"></script>
+</head>
+<body>
+<div class="container-fluid" id="top">
+<!-- top nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav" id="topNav">
+                <a class="nav-item nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#infoAboutMe">About Me</a>
+                <a class="nav-item nav-link" href="#myWorkSamples">Work Samples</a>
+                <a class="nav-item nav-link" href="#contactMe">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+<!-- header pic -->
+    <section id="headerPic">
+        <div class="row">
+            <div class="col-md">
+                <img src="mebackground.png" alt="stephanie's headshot" id="stephPic">
+            </div>
+        </div>
+    </section>
+
+<!-- about me -->
+    <section id="infoAboutMe">
+        <div class="row">
+            <div class="col-md">
+                <div class="aboutMeText">
+                    <h1>I'm Stephanie</h1> 
+                    <p>I'm a web developer living in Halifax, Nova Scotia.</p> 
+                    <p>
+                        I like to work with languages such as HTML, CSS, Javascript, PHP, and SQL.
+                        I've built web applications with React and Laravel. Lately I've been diving into the world of CMS,
+                        making projects with Wordpress and Drupal.  I know my way around a unix terminal and I have a passion 
+                        for accessibility and web design. 
+                    </p>
+                    <p>
+                        A background in the film and music industries lead me to web development.
+                        When I'm not programming, I'm planning songs for the community radio show I co-host, 
+                        making music with friends or writing jokes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- work samples 1 -->
+    <section id="myWorkSamples">
+        <div class="row">
+            <div class="col-md">
+                <h1>TV Maze</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <p>
+                    A React application that calls the <a href="https://www.tvmaze.com/api"  target="_blank">TVMaze API</a> via axios for data.
+                    Made of 6 components with state held at the highest level. Styled with W3 CSS. View the source code <a href="https://github.com/slmuise/tvmaze/tree/master/tvmaze"  target="_blank">here</a>.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md" id="ws-vd-1">
+                <div class="embed-container"><iframe src='https://www.youtube.com/embed/eBYxAeRVEmw' frameborder='0' allowfullscreen></iframe></div>
+            </div>
+        </div><br><br>
+<!-- work samples 2 -->
+         <div class="row">
+            <div class="col-md">
+                <h1>Music Blog</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+            <p>A Laravel web application connected to a SQL database. Includes user accounts, various roles with privileges, use of middleware and data manipulation via CRUD operations. Styled with Bootstrap.
+                View the source code <a href="https://github.com/slmuise/blogSite" target="_blank">here</a>.
+            </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md" id="ws-vd-2">
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed/2Z5uxK6tYf4' frameborder='0' allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+<!-- contact me -->
+    <section id="contactMe">
+        <div class="row">
+            <div class="col-md">
+                <h1 id="contactHead">Contact Me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <a class="btn" href="mailto:stephanie.l.muise@gmail.com" role="button" target="_top">
+                    <img src="mail.png" alt="envelope as email button"/>
+                </a>
+            </div>
+            <div class="col-md">
+                <a class="btn" href="https://www.linkedin.com/in/stephanie-muise-06a25589" role="button" target="_blank">
+                    <img src="hand-shake.png" alt="hands shaking image as button"/>
+                </a>
+            </div>
+            <div class="col-md">
+                <a class="btn" href="https://github.com/slmuise" role="button" target="_blank">
+                    <img src="github-logo.png" alt="github image as button"/>
+                </a>
+            </div>
+        </div><br>
+        <div class="row" id="clinkTxt">
+                <div class="col-md">
+                    <a class="btn" href="mailto:stephanie.l.muise@gmail.com" role="button" target="_top"><p>Email</p></a>
+                </div>
+                <div class="col-md">
+                    <a class="btn" href="https://www.linkedin.com/in/stephanie-muise-06a25589" role="button" target="_blank"><p>LinkedIn</p></a>
+                </div>
+                <div class="col-md">
+                    <a class="btn" href="https://github.com/slmuise" role="button" target="_blank"><p>GitHub</p></a>
+                </div>
+        </div>
+        
+    </section>
+<!-- footer -->
+    <section id="footerB">
+        <div class="row">
+            <div class="col-md">
+                <footer>
+                    <p id="cRight">copyright 2019 &copy; Stephanie Muise</p>
+                    <div id="iconCredit">
+                        Icons made by <a href="https://www.flaticon.com/authors/iconnice" title="Iconnice">Iconnice</a> and 
+                        <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> and
+                        <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> and
+                        <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
+                        from <a href="https://www.flaticon.com/" 
+                        title="Flaticon">www.flaticon.com</a> is licensed by 
+                        <a href="http://creativecommons.org/licenses/by/3.0/" 
+                        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a> 		
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
