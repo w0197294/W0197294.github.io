@@ -47,7 +47,7 @@ p{
 /* picture */
 
 #stephPic {
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: 13%;
     width: 75%;
 }
@@ -133,7 +133,7 @@ p{
 }
 
 #footerB p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #footerB{
@@ -188,10 +188,6 @@ p{
         padding-bottom: 10%;
     }
 
-    #cRight {
-        font-size: 12px;
-    }
-
     #iconCredit{
         font-size: 7px;
     }
@@ -240,12 +236,9 @@ p{
         margin-bottom: 7%;
     }
 
-    #cRight {
-        font-size: 10px;
-    }
 
     #iconCredit{
-        font-size: 7px;
+        font-size: 6px;
     }
 
 }
@@ -255,10 +248,6 @@ p{
         font-size: 23px;
     }
 
-    #myWorkSamples {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
     
     #infoAboutMe h1 {
         font-size: 28px;
@@ -268,12 +257,9 @@ p{
         font-size: 12px;
     }
 
-    #cRight {
-        font-size: 5px;
-    }
 
     #iconCredit{
-        font-size: 4px;
+        font-size: 2px;
     }
 }
 
@@ -288,6 +274,10 @@ p{
 
     p {
         font-size: 10px;
+    }
+
+    #footerB p{
+        font-size: 5px;
     }
 
 }
